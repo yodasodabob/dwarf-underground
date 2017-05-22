@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from './Header';
 import './App.css';
 
 class App extends Component {
@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
          <div className="expanded row header">
+      <Header />
       <div className="clearfix">
         <div className="float-left logo">
           <img src="http://www.iconninja.com/files/409/4/1006/axe-icon.svg" alt="axe" />
